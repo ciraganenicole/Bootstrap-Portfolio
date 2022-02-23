@@ -13,8 +13,8 @@ p,
   font-weight: bold;
 }
 
-.container-fluid {
-  margin-top: 600px;
+.work-section {
+  margin-top: 800px;
 }
 
 .card {
@@ -47,4 +47,14 @@ p,
   background-image: url("images/Icon\ Name\ \(1\).png");
   background-repeat: no-repeat;
   background-position: 50% 10%;
+}
+
+#footer-p,
+form {
+  width: 40%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
 }

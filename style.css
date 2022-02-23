@@ -1,0 +1,18 @@
+body {
+    background-image: url("./images/background.png");
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    margin-top: 600px;
+}
+
+p,
+.nav-item {
+    font-size: 20px;
+    font-family: 'Inter', 'Courier New', Courier, monospace;
+    color: #172b4d;
+    font-weight: bold;
+}

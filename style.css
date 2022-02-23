@@ -1,60 +1,69 @@
 body {
-  background-image: url("./images/background.png");
-  background-blend-mode: darken;
-  background-size: 100%;
-  background-repeat: no-repeat;
+    background-image: url("./images/background.png");
+    background-blend-mode: darken;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 p,
 .nav-item {
-  font-size: 20px;
-  font-family: "Inter", "Courier New", Courier, monospace;
-  color: #172b4d;
-  font-weight: bold;
+    font-size: 20px;
+    font-family: "Inter", "Courier New", Courier, monospace;
+    color: #172b4d;
+    font-weight: bold;
 }
 
 .work-section {
-  margin-top: 800px;
+    margin-top: 600px;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 400px;
 }
 
 .card {
-  width: 30%;
-  height: 352px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+    width: 30%;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #first {
-  background-color: #ebf0ee;
-  background-image: url("images/Group.png");
-  background-repeat: no-repeat;
-  background-position: 50% 10%;
-  margin-right: 20px;
+    background-color: #ebf0ee;
+    background-image: url("images/Group.png");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    margin-right: 20px;
 }
 
 #second {
-  background-color: #ebf0ee;
-  background-image: url("images/Icon\ Name.png");
-  background-repeat: no-repeat;
-  background-position: 50% 10%;
-  margin-right: 20px;
+    background-color: #ebf0ee;
+    background-image: url("images/Icon\ Name.png");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    margin-right: 20px;
 }
 
 #third {
-  background-color: #ebf0ee;
-  background-image: url("images/Icon\ Name\ \(1\).png");
-  background-repeat: no-repeat;
-  background-position: 50% 10%;
+    background-color: #ebf0ee;
+    background-image: url("images/Icon\ Name\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
 }
 
 #footer-p,
 form {
-  width: 40%;
+    width: 40%;
 }
 
 textarea {
-  width: 100%;
-  height: 150px;
+    width: 100%;
+    height: 150px;
 }
